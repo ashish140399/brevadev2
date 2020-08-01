@@ -1,0 +1,27 @@
+.logo{
+    font-size: 24px;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 6%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+}
